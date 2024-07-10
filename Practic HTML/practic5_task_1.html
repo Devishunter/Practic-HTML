@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Форма анкеты</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Коротко о себе:</legend>
+      <input type="radio" name="gender" value="male" id="male">
+      <label for="male">Молодой человек</label><br>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">Девушка</label>
+  
+      <legend>Дата рождения:</legend>
+      <input type="date" name="birthdate">
+    
+      <legend>Семейное положение:</legend>
+      <select name="marital_status">
+        <option value="single">Не женат/не замужем</option>
+        <option value="married">Женат/замужем</option>
+        <option value="divorced">Разведен/разведена</option>
+        <option value="widowed">Вдовец/вдова</option>
+      </select>
+    
+      <legend>Социальный статус:</legend>
+      <input type="text" name="social_status">
+    
+      <legend>Местожительство:</legend>
+      <input type="text" name="location">
+    </fieldset>
+    <input type="submit" value="Отправить">
+  </form>
+</body>
+</html>
